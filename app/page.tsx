@@ -1,5 +1,10 @@
-import { redirect } from 'next/navigation'
-
 export default function RootPage() {
-  redirect('/ja')
+  return (
+    <html>
+      <head>
+        <meta httpEquiv="refresh" content="0; url=/ja/" />
+      </head>
+      <body></body>
+    </html>
+  )
 }
